@@ -79,7 +79,7 @@
     }
 
     input, textarea {
-      width: 90%;
+      width: 92%;
       padding: 12px;
       margin: 10px 0;
       border-radius: 8px;
@@ -105,6 +105,15 @@
       margin-top: 15px;
     }
 
+    .note {
+      background: #e8f5e9;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      font-size: 14px;
+      color: green;
+    }
+
     footer {
       background: black;
       color: white;
@@ -127,8 +136,8 @@
   <div class="card">
     <h2>🌸 About Us</h2>
     <p>
-      One Day Best Friends provides a friendly, safe and respectful companion
-      service for outings like travel, shopping, parties and casual conversations.
+      We provide a friendly, safe and respectful companion service
+      for travel, shopping, parties and casual conversations.
     </p>
   </div>
 
@@ -139,7 +148,7 @@
       <div class="service-box">Travel Buddy</div>
       <div class="service-box">Party Companion</div>
       <div class="service-box">Shopping Partner</div>
-      <div class="service-box">Gossip & Friendly Talks</div>
+      <div class="service-box">Friendly Talks</div>
     </div>
   </div>
 
@@ -153,12 +162,15 @@
   <!-- Payment -->
   <div class="card">
     <h2>📌 Payment Method</h2>
-    <p>Scan the QR Code to Pay:</p>
+    <p>Scan QR Code to Pay:</p>
 
-    <!-- QR CODE IMAGE -->
     <img src="qr.png" alt="UPI QR Code">
-
     <p><b>UPI ID:</b> dodmanirahul969@okicici</p>
+
+    <!-- ✅ Payment Confirmation Note -->
+    <div class="note">
+      ✅ Payment करने के बाद कृपया booking form में payment screenshot भेजें।
+    </div>
   </div>
 
   <!-- Booking Form -->
@@ -166,27 +178,35 @@
     <h2>📩 Booking Request Form</h2>
 
     <form action="mailto:dodmanirahul969@gmail.com" method="post" enctype="text/plain">
+
       <input type="text" name="Name" placeholder="Your Name" required>
 
       <input type="text" name="City" placeholder="Your City" required>
 
       <input type="number" name="Hours" placeholder="How many hours booking?" required>
 
-      <textarea name="Message" rows="4" placeholder="Write your plan (travel/party/shopping)..."></textarea>
+      <!-- ✅ Date Option Added -->
+      <input type="date" name="Booking Date" required>
+
+      <!-- ✅ Time Option Added -->
+      <input type="time" name="Booking Time" required>
+
+      <textarea name="Message" rows="4"
+        placeholder="Write your plan (travel/party/shopping)..."></textarea>
 
       <button type="submit">Send Booking Request</button>
     </form>
 
-    <!-- WhatsApp Button -->
-    <br>
+    <!-- ✅ WhatsApp Direct Booking Button -->
     <button class="whatsapp"
       onclick="window.location.href='https://wa.me/91XXXXXXXXXX'">
-      📲 Book on WhatsApp
+      📲 Book Direct on WhatsApp
     </button>
 
     <p style="font-size:12px;color:gray;">
-      Replace 91XXXXXXXXXX with your WhatsApp number.
+      Replace 91-9321279425 with your WhatsApp number.
     </p>
+
   </div>
 
 </div>
