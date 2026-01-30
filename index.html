@@ -1,6 +1,14 @@
 <!DOCTYPE html>
-<head><meta name="google-site-verification" content="PyMZuD7B_ki9l8RokFgK4ELIZvz2v1Xw7sX8-WXceHQ" />
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification"
+    content="PyMZuD7B_k1918RokFgK4EILZvz2v1Xw7sX8-WXceHQ" />
+
+  <title>One Day Best Friends</title>
 
   <style>
     body {
@@ -10,11 +18,32 @@
       color: #222;
     }
 
+    /* MENU */
+    nav {
+      text-align: center;
+      padding: 15px;
+      background: white;
+      font-size: 18px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 12px;
+      color: #ff5722;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* HEADER */
     header {
       background: linear-gradient(to right, #ff5722, #ff9800);
       color: white;
       text-align: center;
-      padding: 50px 20px;
+      padding: 60px 20px;
     }
 
     header h1 {
@@ -27,8 +56,9 @@
       margin-top: 10px;
     }
 
+    /* MAIN CONTENT */
     .container {
-      max-width: 1000px;
+      max-width: 950px;
       margin: auto;
       padding: 30px 20px;
     }
@@ -38,179 +68,106 @@
       border-radius: 15px;
       padding: 25px;
       margin: 20px 0;
-      box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
       color: #ff5722;
     }
 
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      justify-content: center;
-    }
-
-    .service-box {
-      flex: 1;
-      min-width: 200px;
-      background: #fff3e0;
-      padding: 15px;
-      border-radius: 12px;
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .price {
-      font-size: 25px;
-      font-weight: bold;
-      color: green;
-    }
-
-    img {
-      width: 230px;
-      margin-top: 15px;
-      border-radius: 12px;
-      border: 2px solid #ddd;
-    }
-
-    input, textarea {
-      width: 92%;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-    }
-
-    button {
-      padding: 12px 25px;
-      border: none;
-      border-radius: 8px;
-      background: #28a745;
-      color: white;
+    ul {
       font-size: 16px;
-      cursor: pointer;
+      line-height: 28px;
     }
 
-    button:hover {
-      background: #218838;
-    }
-
-    .whatsapp {
-      background: #25D366;
-      margin-top: 15px;
-    }
-
-    .note {
-      background: #e8f5e9;
-      padding: 10px;
+    /* BUTTON */
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #ff5722;
+      color: white;
+      text-decoration: none;
       border-radius: 10px;
       margin-top: 15px;
-      font-size: 14px;
-      color: green;
+      font-weight: bold;
     }
 
+    .btn:hover {
+      background: #e64a19;
+    }
+
+    /* FOOTER */
     footer {
-      background: black;
-      color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 30px;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
     }
   </style>
 </head>
+
 <body>
 
-<header>
-  <h1>One Day Best Friends</h1>
-  <p>Social Companion Service in Alibag, Maharashtra</p>
-</header>
+  <!-- ✅ MENU -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="booking.html">Booking</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-<div class="container">
+  <!-- ✅ DISCLAIMER -->
+  <p style="text-align:center; padding:10px;">
+    Disclaimer: We provide friendly companionship services only.
+    This is a safe, respectful, non-romantic, non-adult service.
+  </p>
 
-  <!-- About -->
-  <div class="card">
-    <h2>🌸 About Us</h2>
-    <p>
-      We provide a friendly, safe and respectful companion service
-      for travel, shopping, parties and casual conversations.
-    </p>
-  </div>
+  <!-- ✅ HEADER -->
+  <header>
+    <h1>One Day Best Friends</h1>
+    <p>Your Friendly Companion for Travel, Shopping & Events</p>
+  </header>
 
-  <!-- Services -->
-  <div class="card">
-    <h2>✨ Services Available</h2>
-    <div class="services">
-      <div class="service-box">Travel Buddy</div>
-      <div class="service-box">Party Companion</div>
-      <div class="service-box">Shopping Partner</div>
-      <div class="service-box">Friendly Talks</div>
+  <!-- ✅ CONTENT -->
+  <div class="container">
+
+    <div class="card">
+      <h2>🌟 Our Services</h2>
+      <ul>
+        <li>Travel Buddy</li>
+        <li>Shopping Partner</li>
+        <li>Event Companion</li>
+        <li>Casual Conversations</li>
+      </ul>
+
+      <a class="btn" href="booking.html">Book Now</a>
     </div>
-  </div>
 
-  <!-- Pricing -->
-  <div class="card">
-    <h2>💰 Pricing</h2>
-    <p class="price">₹1000 per hour</p>
-    <p>Minimum booking: 1 hour</p>
-  </div>
-
-  <!-- Payment -->
-  <div class="card">
-    <h2>📌 Payment Method</h2>
-    <p>Scan QR Code to Pay:</p>
-
-    <img src="qr.png" alt="UPI QR Code">
-    <p><b>UPI ID:</b> dodmanirahul969@okicici</p>
-
-    <!-- ✅ Payment Confirmation Note -->
-    <div class="note">
-      ✅ Payment करने के बाद कृपया booking form में payment screenshot भेजें।
+    <div class="card">
+      <h2>✅ Why Choose Us?</h2>
+      <p>
+        We provide safe, friendly and respectful companionship services
+        for people who want support during travel, events or social outings.
+      </p>
     </div>
-  </div>
 
-  <!-- Booking Form -->
-  <div class="card">
-    <h2>📩 Booking Request Form</h2>
+    <div class="card">
+      <h2>📞 Contact</h2>
+      <p>
+        For booking and inquiries, please visit our contact page.
+      </p>
 
-    <form action="mailto:dodmanirahul969@gmail.com" method="post" enctype="text/plain">
-
-      <input type="text" name="Name" placeholder="Your Name" required>
-
-      <input type="text" name="City" placeholder="Your City" required>
-
-      <input type="number" name="Hours" placeholder="How many hours booking?" required>
-
-      <!-- ✅ Date Option Added -->
-      <input type="date" name="Booking Date" required>
-
-      <!-- ✅ Time Option Added -->
-      <input type="time" name="Booking Time" required>
-
-      <textarea name="Message" rows="4"
-        placeholder="Write your plan (travel/party/shopping)..."></textarea>
-
-      <button type="submit">Send Booking Request</button>
-    </form>
-
-    <!-- ✅ WhatsApp Direct Booking Button -->
-    <button class="whatsapp"
-      onclick="window.location.href='https://wa.me/91XXXXXXXXXX'">
-      📲 Book Direct on WhatsApp
-    </button>
-
-    <p style="font-size:12px;color:gray;">
-      Replace 91-9321279425 with your WhatsApp number.
-    </p>
+      <a class="btn" href="contact.html">Contact Us</a>
+    </div>
 
   </div>
 
-</div>
-
-<footer>
-  <p>© 2026 One Day Best Friends | Safe Social Companion Service</p>
-</footer>
+  <!-- ✅ FOOTER -->
+  <footer>
+    © 2026 One Day Best Friends | All Rights Reserved
+  </footer>
 
 </body>
 </html>
+  
